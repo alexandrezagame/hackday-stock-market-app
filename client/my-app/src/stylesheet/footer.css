@@ -1,0 +1,35 @@
+footer {
+  border-top: 1px solid #fff;
+  /* background-color: #0e1a27; */
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer {
+  flex-shrink: 0;
+  padding: 5px 0;
+}
+
+.footer span {
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 30px;
+  justify-self: center;
+  align-self: center;
+  color: #9883e5;
+}
