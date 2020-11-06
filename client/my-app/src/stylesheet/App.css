@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,7 +7,6 @@
   padding: 0;
   font-family: "Nunito", sans-serif;
   background-color: #357266;
-  /* color: #fff; */
 }
 
 .coin-app {
@@ -17,7 +17,6 @@
 }
 
 .coin-search {
-  margin-bottom: 64px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,20 +34,56 @@
 }
 
 .coin-input {
-  /* padding-left: 16px; */
   text-align: center;
   height: 50px;
   border-radius: 4px;
   font-size: 1.5rem;
   border: 1px solid #9883e5;
   color: #e2e2e2;
-  /* background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
-  ); */
 }
 
 .coin-input::placeholder {
   color: #e2e2e2;
+}
+
+.sticky-info {
+  position: sticky;
+  top: 0px;
+  padding-top: 10px;
+}
+
+.coin-info-table {
+  display: flex;
+  flex-direction: row;
+  min-width: 1125px;
+  justify-content: space-between;
+  border-bottom: 2px solid #9883e5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  height: 50px;
+}
+
+.coin-info-table h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+.coin-name {
+  margin-left: 120px;
+}
+
+.coin-shortname {
+  color: #357266;
+}
+
+.change1H {
+  padding-left: 25px;
+}
+
+.change1Y {
+  margin-left: 15px;
+}
+
+.worth {
+  margin-right: 35px;
 }
