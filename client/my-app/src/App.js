@@ -22,7 +22,7 @@ function App() {
       setState((state) => ({ data: state.data, error: false, loading: true }));
       // setSeconds((seconds) => seconds + 10);
       axios
-        .get("/getCoins")
+        .get("https://digitaldestiny.herokuapp.com/getCoins")
         .then((res) => {
           setCoins(res.data);
         })
